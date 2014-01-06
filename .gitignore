@@ -23,6 +23,7 @@ capybara-*.html
 .rspec
 /vendor/bundle
 /log/*
+/**/log/*
 /public/system/*
 /coverage/
 /spec/tmp/*
