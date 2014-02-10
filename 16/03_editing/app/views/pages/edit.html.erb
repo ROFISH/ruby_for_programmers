@@ -1,0 +1,13 @@
+<h1>Editing <%= @page.name %></h1>
+<%= form_for @page do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <br/>
+  <%= f.label :handle %>
+  <%= f.text_field :handle %>
+  <br/>
+  <%= f.label :body_text %>
+  <%= f.text_area :body_text,:rows=>10,:cols=>50 %>
+  <br/>
+  <%= f.submit %>
+<% end %>
